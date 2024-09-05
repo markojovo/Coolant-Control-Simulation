@@ -107,7 +107,8 @@ After building the project, run the test suite:
 2. Add more sophisticated thermal models for increased accuracy
 3. Introduce simulated faults to test system robustness
 4. Implement adaptive PID tuning for optimal performance across various conditions
-5. Extend the model to simulate multiple inverters in a larger system
+5. Modularize the CAN-BUS model to be able to extend the simulator to simulate multiple inverters in a larger system
+6. Begin integration with OpenAI Gym for Reinforcement Learning based optimization and control of this "Industrial System" plant example, can optimize for energy use.
 
 ## Contributors
 Marko Jovanovic
