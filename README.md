@@ -3,6 +3,8 @@
 ## Project Overview
 This project simulates an advanced coolant control system for an inverter, implementing a PID controller and a state machine to manage inverter temperature. The simulation runs in real-time, utilizing multithreading to separate the plant simulation from the control logic.
 
+The current goal of this project is to have this be a simulation environment for training Reinforcement Learning agents via an OpenAI Gym interface.
+
 ## Key Components
 
 ### 1. Plant Simulation (`plant_simulation.cpp`)
